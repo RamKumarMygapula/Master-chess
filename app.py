@@ -3,7 +3,7 @@ from chess_engine import *
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/home')
 def index():
     return render_template("index.html")
 
