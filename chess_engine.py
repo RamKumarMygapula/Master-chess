@@ -308,7 +308,7 @@ class Engine:
             move_list, score = self.alpha_beta(i, 0, None, -10000001, 10000001, move_list, self.board.turn)
         print("Depth calculated:", len(move_list))
         return str(move_list[-1])
-    def TimeTaken():
+  
         
 
 
